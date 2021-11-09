@@ -36,7 +36,7 @@ include 'menu.php';
                         <img src="<?php echo IMG_PATH; ?>car1.gif" class="d-block w-100" alt="Carro 1">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>HURACÁN</h5>
-                            <p>BASADO EN UNA HISTORIA REAL PONERLINKDELCOCHE</p>
+                            <p>BASADO EN UNA HISTORIA REAL PONERLINKDELCOCHEs</p>
                         </div>
                     </div>
                     <div class="carousel-item">
