@@ -27,11 +27,24 @@
         </ul>
         </li>
         <li>
-            <a href="#">Acerca de</a>
+        <li class="active dropend">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true">
+                <img src="<?php echo IMG_PATH; ?>carros.png" alt="titulo carro" width="110" height="50">
+            </a>
+            <ul class="dropdown-menu" id="homeSubmenu">
+                <li>
+                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo carro" width="130" height="45"></a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo carro" width="200" height="35"></a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo carro" width="130" height="45"></a>
+                </li>
         </li>
-        <li>
-            <a href="#">Portafolio</a>
+        </ul>
         </li>
+
         <li>
             <a href="#">Contacto</a>
         </li>

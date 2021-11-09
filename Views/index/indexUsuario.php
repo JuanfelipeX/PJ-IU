@@ -86,7 +86,7 @@ include 'menu.php';
                         <div class="col-sm">
 
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
-                                <img src="<?php echo IMG_PATH; ?>deportivos.png" class="d-block w-100" alt="titulo deportivos" width="100" height="80">
+                                <img src="<?php echo IMG_PATH; ?>deportivos.png"  alt="titulo deportivos" width="150" height="50">
                                 <div class="card-body">
                                     <img src="<?php echo IMG_PATH; ?>car4.png" class="d-block w-100" alt="Carro 4">
                                     <p class="card-text">Some quick example text to build on the card title</p>
@@ -97,7 +97,7 @@ include 'menu.php';
                         <div class="col-sm">
 
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
-                                <img src="<?php echo IMG_PATH; ?>casuales.png" class="d-block w-100" alt="titulo casuales" width="200" height="80">
+                                <img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo casuales" width="300" height="50">
                                 <div class="card-body">
                                     <img src="<?php echo IMG_PATH; ?>car5.png" class="d-block w-100" alt="Carro 5">
                                     <p class="card-text">Some quick example text to build on the card title</p>
@@ -108,7 +108,7 @@ include 'menu.php';
                         <div class="col-sm">
 
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
-                                <img src="<?php echo IMG_PATH; ?>antiguo.png" class="d-block w-100" alt="titulo antiguos" width="100" height="80">
+                                <img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo antiguos" width="200" height="55">
                                 <div class="card-body">
                                     <img src="<?php echo IMG_PATH; ?>car6.png" class="d-block w-100" alt="Carro 6">
                                     <p class="card-text">Some quick example text to build on the card title</p>
