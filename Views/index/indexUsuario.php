@@ -78,7 +78,7 @@ include 'menu.php';
                 <h1 class="display-5">Modelos</h1>
                 <p class="lead">Busque y encuentre su vehiculo de estreno</p>
                 <hr class="my-4">
-                <p>VIVE LA EXPERIENCIA DE CONDUCCION CON:</p>
+                <p>VIVE LA EXPERIENCIA DE CONDUCCION CON COCHES:</p>
 
 
                 <div class="container">
@@ -86,7 +86,7 @@ include 'menu.php';
                         <div class="col-sm">
 
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
-                                <img src="<?php echo IMG_PATH; ?>deportivos.png"  alt="titulo deportivos" width="150" height="50">
+                                <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo deportivos" width="190" height="55"></a>
                                 <div class="card-body">
                                     <img src="<?php echo IMG_PATH; ?>car4.png" class="d-block w-100" alt="Carro 4">
                                     <p class="card-text">Some quick example text to build on the card title</p>
@@ -97,7 +97,7 @@ include 'menu.php';
                         <div class="col-sm">
 
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
-                                <img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo casuales" width="300" height="50">
+                                <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo casuales" width="320" height="50"></a>
                                 <div class="card-body">
                                     <img src="<?php echo IMG_PATH; ?>car5.png" class="d-block w-100" alt="Carro 5">
                                     <p class="card-text">Some quick example text to build on the card title</p>
@@ -108,7 +108,7 @@ include 'menu.php';
                         <div class="col-sm">
 
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
-                                <img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo antiguos" width="200" height="55">
+                                <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo antiguos" width="180" height="55"></a>
                                 <div class="card-body">
                                     <img src="<?php echo IMG_PATH; ?>car6.png" class="d-block w-100" alt="Carro 6">
                                     <p class="card-text">Some quick example text to build on the card title</p>
@@ -127,41 +127,76 @@ include 'menu.php';
 
     <div class="row">
         <div class="col">
-            <h1>Ejemplo Acordeón</h1>
+            <h1>ACERCA DE NOSOTROS</h1>
+            <br>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Accordion Item #1
+                            ¿Quienes Somos?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>You Need a Car es una empresa dedicada a la venta y compra de vehiculos. </strong> Somos un sitio web donde puedes comprar coches de cualquier tipo de marca disponible, tenemos vinculaciones con varios fabricantes de vehiculos, ofrecemos categorias de marca de coches premium con ofertas especiales. Ademas somos una empresa internacional donde puedes comprar coches en cualquier lugar del mundo.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
+                            Nuestros Socios
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>Tenemos fabricantes de vehiculos tales como:</strong>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="<?php echo IMG_PATH; ?>logoferrari.png" alt="logo ferrari" width="200" height="300">
+                                    </div>
+                                    <div class="col">
+                                        <img src="<?php echo IMG_PATH; ?>logolamborghini.png" alt="logo lamborghini" width="250" height="280">
+                                    </div>
+                                    <div class="col">
+                                        <img src="<?php echo IMG_PATH; ?>logomazda.png" alt="logo mazda" width="280" height="300">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="col">
+                                            <img src="<?php echo IMG_PATH; ?>logoporshe.png" alt="logo porshe" width="200" height="250">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="col">
+                                            <br>
+                                            <br>
+                                            <img src="<?php echo IMG_PATH; ?>logoford.png" alt="logo ford" width="400" height="150">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <br>
+                                        <img src="<?php echo IMG_PATH; ?>logomercedez.png" alt="logo mercedez" width="250" height="250">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Accordion Item #3
+                            ¿Por que elegirnos?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>You Need a Car es una startup con un gran potencial a futuro que desea vincularse con mas fabricantes de vehiculos.</strong> Queremos que TU seas uno de nuestros nuevos clientes, tenemos gran variedad de coches, puedes ver la historia de la creacion de los coches y su ficha tecnica, somos una startup internacional que conecta con clientes de todo el mundo y tenemos varias facilidades de pago.
                         </div>
                     </div>
                 </div>

@@ -16,12 +16,12 @@ include 'header.php';
                 <!-- Nested Row within Card Body -->
                 <div class="row">
                     <div class="col-lg-6 d-none d-lg-block">
-                        <img src="<?php echo IMG_PATH;?>inicio.jpg" alt="Imagen de inicio" width="400px" height="300px">
+                        <img src="<?php echo IMG_PATH;?>imageindex.png" alt="Imagen de inicio" width="500px" height="340px">
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
                             <div class="d-flex justify-content-center">
-                                <p>Bienvenidos a Mi Sitio Web</p>
+                                <p>Bienvenidos a Nuestro Sitio Web</p>
                             </div>
                             <hr>
                             <div class="d-flex justify-content-center">

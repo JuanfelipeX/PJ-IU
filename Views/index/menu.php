@@ -33,13 +33,13 @@
             </a>
             <ul class="dropdown-menu" id="homeSubmenu">
                 <li>
-                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo carro" width="130" height="45"></a>
+                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo carro" width="130" height="40"></a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo carro" width="200" height="35"></a>
+                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo carro 2" width="210" height="35"></a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo carro" width="130" height="45"></a>
+                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo carro 3" width="120" height="40"></a>
                 </li>
         </li>
         </ul>
@@ -49,7 +49,8 @@
             <a href="#">Contacto</a>
         </li>
         <li>
-            <a href="<?php echo VIEWS_PATH; ?>index/">Salir</a>
+
+            <a href="<?php echo VIEWS_PATH; ?>index/"> <img src="<?php echo IMG_PATH; ?>salir.png" alt="salir" width="90" height="45"></a>
         </li>
         </ul>
     </nav>
