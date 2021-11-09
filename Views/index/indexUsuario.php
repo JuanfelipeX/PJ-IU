@@ -33,7 +33,7 @@ include 'menu.php';
                 <div class="carousel-inner" style="height: 600px;">
                     <!--Se añadió este estilo en línea-->
                     <div class="carousel-item active">
-                        <img src="<?php echo IMG_PATH; ?>car1.gif" class="d-block w-100" alt="Carro 1">
+                        <img src="<?php echo IMG_PATH; ?>car4.gif" alt="Carro 1" width="1270" height="600">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>HURACÁN</h5>
                             <p>BASADO EN UNA HISTORIA REAL PONERLINKDELCOCHEs</p>
