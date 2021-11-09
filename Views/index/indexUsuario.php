@@ -86,7 +86,7 @@ include 'menu.php';
                         <div class="col-sm">
 
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
-                                <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo deportivos" width="190" height="55"></a>
+                                <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/deportivos.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo deportivos" width="190" height="55"></a>
                                 <div class="card-body">
                                     <img src="<?php echo IMG_PATH; ?>car4.png" class="d-block w-100" alt="Carro 4">
                                     <p class="card-text">Some quick example text to build on the card title</p>

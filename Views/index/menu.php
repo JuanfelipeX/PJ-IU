@@ -21,7 +21,7 @@
                         <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php">Lista usuarios</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>usuarios/VistaNuevoUsuario.php">Nuevo usuario</a>
+                        <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/VistaNuevoUsuario.php">Nuevo usuario</a>
                     </li>
             </li>
         </ul>
@@ -33,7 +33,7 @@
             </a>
             <ul class="dropdown-menu" id="homeSubmenu">
                 <li>
-                    <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo carro" width="130" height="40"></a>
+                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/deportivos.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo carro" width="130" height="40"></a>
                 </li>
                 <li>
                     <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo carro 2" width="210" height="35"></a>

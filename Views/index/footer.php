@@ -6,7 +6,7 @@
 <footer class="alert-light">
     <div class="container">
         <div class="text-center">
-            <span>Desarrollado por Juan Felipe Jimenez Pacheco, <br> Juan Pablo Trujillo <?php echo date("Y"); ?></span>
+            <span>Desarrollado por Juan Felipe Jimenez Pacheco, Juan Pablo Trujillo <?php echo date("Y"); ?></span>
         </div>
     </div>
 </footer>
