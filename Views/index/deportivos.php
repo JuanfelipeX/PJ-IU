@@ -21,7 +21,7 @@ include 'menu.php';
 
 
     <div class="texto-huracan1">
-        <img src="<?php echo IMG_PATH; ?>car1.gif" alt="Carro 1" width="1250" height="500">
+        <img src="<?php echo IMG_PATH; ?>car1.gif" alt="Carro 1" width="1250" height="550">
         <div class="texto-huracan2">
             <h2 style="color: white;">HURACAN STO</h2>
         </div>
