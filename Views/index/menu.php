@@ -14,7 +14,7 @@
             </li>
             <li class="active dropend">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true">
-                    Usuarios
+                    <img src="<?php echo IMG_PATH; ?>usuarios.png" alt="titulo usuarios" width="130" height="40">
                 </a>
                 <ul class="dropdown-menu" id="homeSubmenu">
                     <li>
@@ -46,7 +46,7 @@
         </li>
 
         <li>
-            <a href="#">Contacto</a>
+            <a href="<?php echo VIEWS_PATH; ?>usuarios/"> <img src="<?php echo IMG_PATH; ?>contacto.png" alt="contacto" width="120" height="45"></a>
         </li>
         <li>
 
