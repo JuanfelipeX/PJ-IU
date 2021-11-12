@@ -1,13 +1,16 @@
 <?php
-require("../Model/Conexion.php");
-class Usuarios
-{
-    private $con;
-
-    function __construct()
-    {
-        $this->con = new Conexion();
-    }
+$servername = "localhost";
+$database = "pagina_carros";
+$username = "root";
+$password = "1234";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $database);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+mysqli_close($conn);
 
     public function getUsuarios()
     {
@@ -21,13 +24,13 @@ class Usuarios
         }
         return $usuarios;
     }
-    public function newUsuario($usuario, $clave, $nombre)
+    public function newUsuario($id, $clave, $nombre)
     {
         //$sql = "INSERT INTO USUARIOS (usuario,clave,nombre)
         //VALUES($usuario,$nombre,$clave)";
 
         $sql = "INSERT INTO USUARIOS 
-        VALUES('$usuario','$clave','$nombre')";
+        VALUES('$id','$clave','$nombre')";
 
         if ($this->con->getCon()->query($sql)) {
             // echo "Inserción exitosa.";
