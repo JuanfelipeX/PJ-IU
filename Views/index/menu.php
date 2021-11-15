@@ -10,7 +10,7 @@
             <img src="<?php echo IMG_PATH; ?>logo2.png" class="d-block w-100" alt="logo secundario">
 
             <li>
-                <a href="<?php echo VIEWS_PATH; ?>index/indexUsuario.php"> <img src="<?php echo IMG_PATH; ?>menuPr.png" class="d-block w-100" alt="logo principal"> </a>
+                <a href="<?php echo VIEWS_PATH; ?>index/indexUsuario.php"> <img src="<?php echo IMG_PATH; ?>menuPr.png" class="d-block w-100" alt="menu principal"> </a>
             </li>
             <li class="active dropend">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true">
@@ -33,13 +33,13 @@
             </a>
             <ul class="dropdown-menu" id="homeSubmenu">
                 <li>
-                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/deportivos.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo carro" width="130" height="40"></a>
+                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/deportivos.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo deportivo" width="130" height="40"></a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/casual.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo carro 2" width="210" height="35"></a>
+                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/casual.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo casuales" width="210" height="35"></a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/antiguo.php"><img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo carro 3" width="120" height="40"></a>
+                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/antiguo.php"><img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo antiguo" width="120" height="40"></a>
                 </li>
         </li>
         </ul>

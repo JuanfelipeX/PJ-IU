@@ -21,7 +21,7 @@ include 'menu.php';
 
 
     <div class="texto-huracan1">
-        <img src="<?php echo IMG_PATH; ?>car1.gif" alt="Carro 1" width="1200" height="500">
+        <img src="<?php echo IMG_PATH; ?>car1.gif" alt="Carro huracan" width="1200" height="500">
         <div class="texto-huracan2">
             <h1 style="color: white;">HURACAN STO</h1>
         </div>
@@ -45,7 +45,7 @@ include 'menu.php';
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <img src="<?php echo IMG_PATH; ?>car7.png" alt="Carro 7" width="800" height="300">
+                <img src="<?php echo IMG_PATH; ?>car7.png" alt="Carro huracan 2" width="800" height="300">
             </div>
             <div class="col-sm">
                 <h1>PERSPECTIVA <br> GENERAL </h1 <h6> Un superdeportivo creado con el único objetivo de ofrecer toda la emoción y la tecnología de competición de un auténtico coche de carreras en un modelo legal de carretera. </h6> <br> <br>
@@ -64,7 +64,7 @@ include 'menu.php';
     <br><br><br>
 
     <div class="texto-huracan1">
-        <img src="<?php echo IMG_PATH; ?>car7.gif" alt="Carro 7" width="1200" height="550">
+        <img src="<?php echo IMG_PATH; ?>car7.gif" alt="Carro porsche" width="1200" height="550">
         <div class="texto-huracan2">
             <h1 style="color: white;">PORSCHE 911 CARRERA</h1>
         </div>
@@ -88,7 +88,7 @@ include 'menu.php';
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <img src="<?php echo IMG_PATH; ?>car10.png" alt="Carro 10" width="700" height="400">
+                <img src="<?php echo IMG_PATH; ?>car10.png" alt="Carro porsche 2" width="700" height="400">
             </div>
             <div class="col-sm">
                 <h1>Concepto GTS <br> More of what you love. </h1 <h6> Cuando se trata de algo que verdaderamente apasiona, nunca es suficiente. Por ello, hemos incorporado en los modelos 911 GTS un poco más de aquello que tanto le gusta de Porsche. Para que la emoción se mantenga a flor de piel durante más tiempo. Un frenesí más intenso. Un mayor asombro. </h6> <br> <br>

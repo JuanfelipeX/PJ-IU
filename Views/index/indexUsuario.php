@@ -33,21 +33,21 @@ include 'menu.php';
                 <div class="carousel-inner" style="height: 600px;">
                     <!--Se añadió este estilo en línea-->
                     <div class="carousel-item active">
-                        <img src="<?php echo IMG_PATH; ?>car4.gif" alt="Carro 1" width="1270" height="600">
+                        <img src="<?php echo IMG_PATH; ?>car4.gif" alt="Carro huracan" width="1270" height="600">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>HURACÁN</h5>
                             <p>BASADO EN UNA HISTORIA REAL </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo IMG_PATH; ?>car2.gif" alt="Carro 2" width="1270" height="600">
+                        <img src="<?php echo IMG_PATH; ?>car2.gif" alt="Carro 812 superfast" width="1270" height="600">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>812 SUPERFAST</h5>
                             <p>EL MAS RAPIDO DE FERRARI HASTA LA FECHA </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo IMG_PATH; ?>car3.gif" alt="Carro 3" width="1270" height="600">
+                        <img src="<?php echo IMG_PATH; ?>car3.gif" alt="Carro cybertruck" width="1270" height="600">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>CYBERTRUCK</h5>
                             <p>UN NUEVO DISEÑO REVOLUCIONARIO DE TESLA </p>
@@ -88,7 +88,7 @@ include 'menu.php';
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
                                 <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/deportivos.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo deportivos" width="190" height="55"></a>
                                 <div class="card-body">
-                                    <img src="<?php echo IMG_PATH; ?>car4.png" class="d-block w-100" alt="Carro 4">
+                                    <img src="<?php echo IMG_PATH; ?>car4.png" class="d-block w-100" alt="Carro deportivo">
                                     <p class="card-text"> <br> ¡Disfuta de lo mejor con un coche deportivo para tener el mejor estilo en toda la ciudad! 😎😎</p>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ include 'menu.php';
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
                                 <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/casual.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo casuales" width="320" height="50"></a>
                                 <div class="card-body">
-                                    <img src="<?php echo IMG_PATH; ?>car5.png" class="d-block w-100" alt="Carro 5">
+                                    <img src="<?php echo IMG_PATH; ?>car5.png" class="d-block w-100" alt="Carro casual">
                                     <p class="card-text"> <br> !Lo mejor para varios pasajeros y disfrutar de un viaje acompañado de toda la familia! 🚗🚗</p>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ include 'menu.php';
                             <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
                                 <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/antiguo.php"><img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo antiguos" width="180" height="55"></a>
                                 <div class="card-body">
-                                    <img src="<?php echo IMG_PATH; ?>car6.png" class="d-block w-100" alt="Carro 6">
+                                    <img src="<?php echo IMG_PATH; ?>car6.png" class="d-block w-100" alt="Carro antiguo">
                                     <p class="card-text"> <br> ¡Si lo tuyo es lo clasico y las colecciones disfrua de estos coches 👴👴</p>
                                 </div>
                             </div>
