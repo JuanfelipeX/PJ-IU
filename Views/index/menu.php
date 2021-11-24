@@ -10,18 +10,32 @@
             <img src="<?php echo IMG_PATH; ?>logo2.png" class="d-block w-100" alt="logo secundario">
 
             <li>
-                <a href="<?php echo VIEWS_PATH; ?>index/indexUsuario.php"> <img src="<?php echo IMG_PATH; ?>menuPr.png" class="d-block w-100" alt="menu principal"> </a>
+                <div class="titulo_menu">
+                    <a href="<?php echo VIEWS_PATH; ?>index/indexUsuario.php">
+                        <p>MENU PRINCIPAL </p>
+                </div>
+
             </li>
             <li class="active dropend">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true">
-                    <img src="<?php echo IMG_PATH; ?>usuarios.png" alt="titulo usuarios" width="130" height="40">
+                    <div class="titulo_menu">
+                        <p>USUARIOS </p>
+                    </div>
                 </a>
                 <ul class="dropdown-menu" id="homeSubmenu">
                     <li>
-                        <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php">Lista usuarios</a>
+                        <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php">
+                            <div class="titulo_menu">
+                                <p>LISTA USUARIOS </p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/VistaNuevoUsuario.php">Nuevo usuario</a>
+                        <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/VistaNuevoUsuario.php">
+                            <div class="titulo_menu">
+                                <p>NUEVO USUARIO </p>
+                            </div>
+                        </a>
                     </li>
             </li>
         </ul>
@@ -29,28 +43,51 @@
         <li>
         <li class="active dropend">
             <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true">
-                <img src="<?php echo IMG_PATH; ?>carros.png" alt="titulo carro" width="110" height="50">
+                <div class="titulo_menu">
+                    <p>CARROS </p>
+                </div>
+
             </a>
             <ul class="dropdown-menu" id="homeSubmenu">
                 <li>
-                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/deportivos.php"><img src="<?php echo IMG_PATH; ?>deportivos.png" alt="titulo deportivo" width="130" height="40"></a>
+                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/deportivos.php">
+                        <div class="titulo_menu">
+                            <p>DEPORTIVOS </p>
+                        </div>
+                    </a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/casual.php"><img src="<?php echo IMG_PATH; ?>casuales.png" alt="titulo casuales" width="210" height="35"></a>
+                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/casual.php">
+                        <div class="titulo_menu">
+                            <p>CASUALES </p>
+                        </div>
+                    </a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/antiguo.php"><img src="<?php echo IMG_PATH; ?>antiguo.png" alt="titulo antiguo" width="120" height="40"></a>
+                    <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/antiguo.php">
+                        <div class="titulo_menu">
+                            <p>ANTIGUOS </p>
+                        </div>
+                    </a>
                 </li>
         </li>
         </ul>
         </li>
 
         <li>
-            <a href="<?php echo VIEWS_PATH; ?>usuarios/"> <img src="<?php echo IMG_PATH; ?>contacto.png" alt="contacto" width="120" height="45"></a>
+            <a href="<?php echo VIEWS_PATH; ?>usuarios/">
+                <div class="titulo_menu">
+                    <p>CONTACTO </p>
+                </div>
+            </a>
         </li>
         <li>
 
-            <a href="<?php echo VIEWS_PATH; ?>index/"> <img src="<?php echo IMG_PATH; ?>salir.png" alt="salir" width="90" height="45"></a>
+            <a href="<?php echo VIEWS_PATH; ?>index/">
+                <div class="titulo_menu">
+                    <p>SALIR </p>
+                </div>
+            </a>
         </li>
         </ul>
     </nav>
