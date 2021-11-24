@@ -24,14 +24,14 @@
                 </a>
                 <ul class="dropdown-menu" id="homeSubmenu">
                     <li>
-                        <a class="dropdown-item" href="<?php echo CONTROLLER_PATH; ?>UsuariosController.php">
+                        <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>usuarios/VistaListaUsuarios.php">
                             <div class="titulo_menu">
                                 <p>LISTA USUARIOS </p>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>index/VistaNuevoUsuario.php">
+                        <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>usuarios/VistaNuevoUsuario.php">
                             <div class="titulo_menu">
                                 <p>NUEVO USUARIO </p>
                             </div>
@@ -75,7 +75,7 @@
         </li>
 
         <li>
-            <a href="<?php echo VIEWS_PATH; ?>usuarios/">
+            <a href="<?php echo VIEWS_PATH; ?>index/contacto.php">
                 <div class="titulo_menu">
                     <p>CONTACTO </p>
                 </div>

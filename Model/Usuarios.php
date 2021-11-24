@@ -1,20 +1,24 @@
 <?php
-$servername = "localhost";
-$database = "pagina_carros";
-$username = "root";
-$password = "1234";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $database);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-echo "Connected successfully";
-mysqli_close($conn);
+class Conexion
+{
+      private $con;
 
-    public function getUsuarios()
+      function __construct()
+      {
+            $this->con = new mysqli("localhost", "pagina_carros", "root", "1234");
+      } //cierra constructor
+
+      function getCon()
+      {
+            return $this->con;
+      } //cierra getCon
+
+
+}//cierra class
+
+    public function getUsuarios($usuario, $clave, $nombre)
     {
-        $query = $this->con->getCon()->query("SELECT * FROM usuarios");
+        $query = $this->con->getCon()->query("SELECT * FROM usuario");
         $usuarios = [];
 
         $cont = 0;
@@ -29,7 +33,7 @@ mysqli_close($conn);
         //$sql = "INSERT INTO USUARIOS (usuario,clave,nombre)
         //VALUES($usuario,$nombre,$clave)";
 
-        $sql = "INSERT INTO USUARIOS 
+        $sql = "INSERT INTO USUARIO 
         VALUES('$id','$clave','$nombre')";
 
         if ($this->con->getCon()->query($sql)) {
@@ -41,7 +45,7 @@ mysqli_close($conn);
     }
     public function deleteUsuario($usuario)
     {
-        $sql = "DELETE FROM USUARIOS WHERE usuario='$usuario'";
+        $sql = "DELETE FROM USUARIO WHERE usuario='$usuario'";
         if ($this->con->getCon()->query($sql)) {
             // echo "Eliminación exitosa.";
         } else {
@@ -51,7 +55,7 @@ mysqli_close($conn);
     }
     public function updateUsuario($usuario, $clave, $nombre)
     {
-        $sql = "UPDATE USUARIOS SET nombre='$nombre', clave='$clave'
+        $sql = "UPDATE USUARIO SET nombre='$nombre', clave='$clave'
         WHERE usuario='$usuario'";
         if ($this->con->getCon()->query($sql)) {
             echo "Actualización exitosa.";
