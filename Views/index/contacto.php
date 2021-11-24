@@ -19,28 +19,33 @@ include 'menu.php';
     <div class="col-md-6 px-auto formulario">
         <form action="" method="POST" id="form">
             <div class="form">
-                <h1>CONTACTENOS</h1>
-                <div class="grupo">
-                    <input type="text" name="" id="name"><span class="barra"></span>
-                    <label for="">Nombre</label>
+                CONTACTENOS
+                </div>
+                <div class="card-body">
+                        <div class="mb-3">
+                            <label for="user" class="form-label">Nombre</label>
+                            <input id="user" class="form-control" type="text" name="usuario" placeholder="Escriba nombre">
+                        </div>
+                
+                <br>
+                <div class="mb-3">
+                            <label for="user" class="form-label">Email</label>
+                            <input id="user" class="form-control" type="text" name="usuario" placeholder="Escriba Email">
+                        </div>
                 </div>
                 <br>
-                <div class="grupo">
-                    <input type="email" name="" id="email"><span class="barra"></span>
-                    <label for="">Email</label>
-                </div>
+                <div class="mb-3">
+                            <label for="user" class="form-label">Telefono</label>
+                            <input id="user" class="form-control" type="text" name="usuario" placeholder="Escriba Telefono">
+                        </div>
                 <br>
-                <div class="grupo">
-                    <input type="phone" name="" id="phones"><span class="barra"></span>
-                    <label for="">Telefono</label>
-                </div>
-                <br>
-                <div class="grupo">
-                    <textarea name="mensaje" id="comments" placeholder="Escribenos tus comentarios">
-            </textarea>
+                <div class="mb-3">
+                    <label for="user" class="form-textarea">¿DUDAS?</label>
+                    <input id="user" class="form-control" type="text" name="usuario" placeholder="Escribenos tus comentarios">
                 </div>
 
-                <button type="submit">Enviar</button>
+                <div align="center"><button type="button" class="btn btn-primary">Enviar</button></div>
+
                 <p class="warnings" id="warnings"></p>
             </div>
         </form>

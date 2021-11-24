@@ -91,7 +91,7 @@ include 'menu.php';
                 <img src="<?php echo IMG_PATH; ?>car10.png" alt="Carro porsche 2" width="700" height="400">
             </div>
             <div class="col-sm">
-                <h1>Concepto GTS <br> More of what you love. </h1 <h6> Cuando se trata de algo que verdaderamente apasiona, nunca es suficiente. Por ello, hemos incorporado en los modelos 911 GTS un poco más de aquello que tanto le gusta de Porsche. Para que la emoción se mantenga a flor de piel durante más tiempo. Un frenesí más intenso. Un mayor asombro. </h6> <br> <br>
+                <h1>Concepto GTS <br> More of what you love. </h1> <h6> Cuando se trata de algo que verdaderamente apasiona, nunca es suficiente. Por ello, hemos incorporado en los modelos 911 GTS un poco más de aquello que tanto le gusta de Porsche. Para que la emoción se mantenga a flor de piel durante más tiempo. Un frenesí más intenso. Un mayor asombro. </h6> <br> <br>
             </div>
         </div>
     </div>
@@ -102,7 +102,9 @@ include 'menu.php';
 
     <br><br>
 
-    <div align="center"><button type="button" class="btn btn-primary">Comprar</button></div>
+    <div align="center"><button type="button" class="btn btn-primary" href="<?php echo VIEWS_PATH; ?>index/venta.php">Comprar</button></div>
+
+
 
     <br><br>
 
