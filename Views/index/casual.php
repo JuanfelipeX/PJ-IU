@@ -57,7 +57,7 @@ include 'menu.php';
 
     <br><br>
 
-    <div align="center"><button type="button" class="btn btn-primary">Comprar</button></div>
+    <div align="center"><button type="button" class="btn btn-primary" onclick="location.href='http://localhost/ConcesionarioWeb/PJ-IU/Views/index/venta'">Comprar</button>
 
     <br><br>
 
@@ -101,8 +101,7 @@ include 'menu.php';
     <iframe width="1200" height="500" src="https://www.youtube.com/embed/T5CVdz7jMGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br><br>
 
-    <div align="center"><button type="button" class="btn btn-primary">Comprar</button></div>
-
+    <div align="center"><button type="button" class="btn btn-primary" onclick="location.href='http://localhost/ConcesionarioWeb/PJ-IU/Views/index/venta'">Comprar</button>
     <br><br>
 
 </div> <!-- cierra container-fluid-->

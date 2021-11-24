@@ -60,7 +60,7 @@ include 'menu.php';
 
     <br><br>
 
-    <div align="center"><button type="button" class="btn btn-primary">Comprar</button></div>
+    <div align="center"><button type="button" class="btn btn-primary" onclick="location.href='http://localhost/ConcesionarioWeb/PJ-IU/Views/index/venta'">Comprar</button>
 
     <br><br>
 
@@ -105,7 +105,7 @@ include 'menu.php';
 
     <br><br>
 
-    <div align="center"><button type="button" class="btn btn-primary">Comprar</button></div>
+    <div align="center"><button type="button" class="btn btn-primary" onclick="location.href='http://localhost/ConcesionarioWeb/PJ-IU/Views/index/venta'">Comprar</button>
 
     <br><br>
 
